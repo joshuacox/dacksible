@@ -9,3 +9,11 @@ https://flynn.io/
 http://deis.io/
 https://github.com/progrium/dokku
 there be dragons here
+
+# usage
+`make vbox`
+this will output an image in ../builds
+
+`vagrant box add dacksible ../builds/dacksible.box`
+then make a new vagrant file
+`mkdir /tmp/dacksible;cd /tmp/dacksible/; vagrant init dacksible`
