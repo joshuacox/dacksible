@@ -231,6 +231,8 @@
     },
     {
       "type": "ansible-local",
+      "extra_arguments": "--limit local",
+      "inventory_file": "hosts",
       "playbook_file": "docker.yaml"
     }
   ]
