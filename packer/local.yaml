@@ -1,4 +1,0 @@
-- hosts: all
-  tasks:
-    - debug: msg="Ansible ready to provision"
-    - shell: "whoami;pwd;ls -lh"
