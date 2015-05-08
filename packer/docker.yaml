@@ -1,4 +1,4 @@
-- hosts: local
-  connection: local
+- name: dockerubuntu 
+  hosts: local
   roles:
     - angstwad.docker_ubuntu
