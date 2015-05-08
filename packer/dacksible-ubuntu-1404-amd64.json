@@ -231,6 +231,7 @@
     },
     {
       "type": "ansible-local",
+      "command": "sudo ansible-playbook",
       "extra_arguments": "--limit localhost",
       "inventory_file": "hosts",
       "playbook_file": "docker.yaml"

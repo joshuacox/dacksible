@@ -179,7 +179,7 @@
                 "scripts/debian/sudoers.sh",
                 "scripts/common/vagrant.sh",
                 "scripts/common/vmtools.sh",
-                "scripts/common/ansible.sh",
+                "scripts/debian/ansible.sh",
                 "scripts/common/docker.sh",
                 "scripts/debian/cleanup.sh",
                 "scripts/common/minimize.sh"
@@ -193,7 +193,7 @@
         "scripts/debian/networking.sh",
         "scripts/debian/sudoers.sh",
         "scripts/common/vmtools.sh",
-        "scripts/common/ansible.sh",
+        "scripts/debian/ansible.sh",
         "scripts/common/docker.sh",
         "scripts/debian/cleanup.sh",
         "scripts/common/minimize.sh"
