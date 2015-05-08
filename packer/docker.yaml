@@ -1,4 +1,4 @@
 - name: dockerubuntu 
-  hosts: local
+  hosts: localhost
   roles:
     - angstwad.docker_ubuntu
