@@ -14,6 +14,14 @@ vbox: buildvbox beep
 
 vboxdebug: buildvboxdebug beep
 
+debqemu: builddebianqemu beep
+
+debqemudebug: builddebianqemudebug beep
+
+debvbox: builddebianvbox beep
+
+debvboxdebug: builddebianvboxdebug beep
+
 buildqemudebug:
 	/usr/bin/time -v packer build -debug --only=qemu dacksible-ubuntu-1404-amd64.json
 
