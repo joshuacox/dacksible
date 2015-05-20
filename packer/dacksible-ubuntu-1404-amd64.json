@@ -227,6 +227,7 @@
         "scripts/common/minimize.sh"
       ],
       "type": "shell",
+      "execute_command": "echo 'vagrant' | {{.Vars}} sudo -E -S bash '{{.Path}}'",
       "environment_vars": [ "DACKSIBLE_VERSION={{user `dacksible_version`}}" ]
     },
     {
