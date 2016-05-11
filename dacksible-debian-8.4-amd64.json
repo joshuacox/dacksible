@@ -151,7 +151,7 @@
       "boot_command": [
         "<esc><wait>",
         "install <wait>",
-        " preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/{{user `preseed_path`}} <wait>",
+        " preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/{{user `qemu_preseed_path`}} <wait>",
         "debian-installer=en_US <wait>",
         "auto <wait>",
         "locale=en_US <wait>",
@@ -236,6 +236,7 @@
     "name": "debian-8.4",
     "no_proxy": "{{env `no_proxy`}}",
     "preseed_path": "debian-8/preseed.cfg",
+    "qemu_preseed_path": "debian-8/preseed-qemu.cfg",
     "template": "debian-8.4-amd64",
     "version": "2.1.TIMESTAMP"
   }
