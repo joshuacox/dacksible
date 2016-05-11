@@ -1,7 +1,7 @@
 #/bin/sh
 apt-get update -yqq
 apt-get upgrade -yqq
-apt-get get install -yqq apt-transport-https netselect-apt
+apt-get install -yqq apt-transport-https netselect-apt
 netselect-apt -ns -t 25 -o /etc/apt/sources.list jessie
 
 cd /tmp
