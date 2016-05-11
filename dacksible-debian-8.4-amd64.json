@@ -186,6 +186,7 @@
   "post-processors": [
     {
       "output": "builds/{{user `box_basename`}}.{{.Provider}}.box",
+      "except": ["qemu"],
       "type": "vagrant"
     }
   ],
@@ -193,7 +194,6 @@
     {
       "destination": "/tmp/bento-metadata.json",
       "source": "{{user `metadata`}}",
-      "except": ["qemu"],
       "type": "file"
     },
     {
