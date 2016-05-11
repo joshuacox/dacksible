@@ -193,6 +193,7 @@
     {
       "destination": "/tmp/bento-metadata.json",
       "source": "{{user `metadata`}}",
+      "except": "qemu",
       "type": "file"
     },
     {
