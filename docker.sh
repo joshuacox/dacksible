@@ -11,7 +11,7 @@ mv sshd_config /etc/ssh/
 wget -O - http://debmon.org/debmon/repo.key 2>/dev/null | apt-key add -
 echo 'deb http://debmon.org/debmon debmon-jessie main' >/etc/apt/sources.list.d/debmon.list
 apt-get update -yqq
-apt-get get install -yqq icinga2 curl wget unzip vim rsync git sudo build-essential \
+apt-get install -yqq icinga2 curl wget unzip vim rsync git sudo build-essential \
 sudo ansible python-apt python-pycurl python-pip python-virtualenv
 
 # roustabout
