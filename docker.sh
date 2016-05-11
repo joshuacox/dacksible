@@ -16,7 +16,7 @@ sudo ansible python-apt python-pycurl python-pip python-virtualenv
 
 # roustabout
 curl https://raw.githubusercontent.com/joshuacox/roustabout/master/bootstraproustabout.sh|bash
-curl https://raw.githubusercontent.com/WebHostingCoopTeam/keys/master/addus.sh | bash
+#curl https://raw.githubusercontent.com/WebHostingCoopTeam/keys/master/addus.sh | bash
 
 # Install docker
-/usr/local/bin/DebianInstall
+/usr/local/bin/DebianDockerInstall
