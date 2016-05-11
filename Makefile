@@ -35,16 +35,16 @@ buildvbox:
 	/usr/bin/time -v nice ionice -c3 packer build --only=virtualbox-iso dacksible-ubuntu-1404-amd64.json
 
 builddebianqemudebug:
-	/usr/bin/time -v nice ionice -c3 packer build -debug --only=qemu dacksible-debian-8.0-amd64.json
+	/usr/bin/time -v nice ionice -c3 packer build -debug --only=qemu dacksible-debian-8.4-amd64.json
 
 builddebianqemu:
-	/usr/bin/time -v nice ionice -c3 packer build --only=qemu dacksible-debian-8.0-amd64.json
+	/usr/bin/time -v nice ionice -c3 packer build --only=qemu dacksible-debian-8.4-amd64.json
 
 builddebianvboxdebug:
-	/usr/bin/time -v nice ionice -c3 packer build -debug --only=virtualbox-iso dacksible-debian-8.0-amd64.json
+	/usr/bin/time -v nice ionice -c3 packer build -debug --only=virtualbox-iso dacksible-debian-8.4-amd64.json
 
 builddebianvbox:
-	/usr/bin/time -v nice ionice -c3 packer build --only=virtualbox-iso dacksible-debian-8.0-amd64.json
+	/usr/bin/time -v nice ionice -c3 packer build --only=virtualbox-iso dacksible-debian-8.4-amd64.json
 
 beep:
 	@echo "beep"
